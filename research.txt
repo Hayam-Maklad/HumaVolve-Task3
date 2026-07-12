@@ -1,0 +1,33 @@
+1. Merge Conflict
+   A merge conflict happens when Git cannot merge two branches automatically because the same file was changed in both branches. In this case, the developer needs to choose the correct changes and then complete the merge.
+
+
+2. Merge Base
+   Merge base is the last common commit between two branches. Git uses it to compare the changes in both branches before merging them.
+
+
+3. Fork
+   A fork is a copy of a GitHub repository that is created in your own GitHub account. It allows you to work on a project without changing the original repository. If needed, you can send your changes back using a Pull Request.
+
+4. Difference between git fetch and git pull
+   git fetch:
+     - Downloads the latest changes from the remote repository.
+     - Does not update your local branch.
+     - Lets you check the changes before merging them.
+
+   git pull:
+     - Downloads the latest changes.
+     - Updates your current branch automatically by merging the changes.
+     - It is the same as running git fetch followed by git merge.
+
+
+5. Difference between git merge and git rebase
+   git merge:
+     - Combines two branches together.
+     - Creates a new merge commit.
+     - Keeps the history of both branches.
+
+   git rebase:
+     - Moves one branch on top of another branch.
+     - Does not create a merge commit in most cases.
+     - Makes the commit history cleaner and easier to read.
